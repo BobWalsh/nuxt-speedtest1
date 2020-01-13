@@ -8,7 +8,7 @@
       <div class="password">
         <input type="password" placeholder="password" v-model="password" />
       </div>
-      <button>Login</button>
+      <button class="button is-primary">Login</button>
       <div class="error" v-if="error">{{ error.message }}</div>
     </form>
   </div>
@@ -59,6 +59,7 @@ button {
   width: 400px;
   height: 75px;
   font-size: 100%;
+  margin-left: 20px;
 }
 .error {
   color: red;
